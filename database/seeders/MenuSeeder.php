@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\menu;
+use App\Models\Menu;
 use Database\Factories\MenuFactory;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
