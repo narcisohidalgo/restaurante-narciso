@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+//body{
+  
+//}
+
+.nar_navbar{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nar_navbar div, .nar_navbar ul{
+    background-color: transparent !important;
+}
+
+.nar_cont_sec_1{
+    padding: 10%;
+}
+
+.nar_cont_sec_1_link{
+    padding: 5%;
+}
+
+.nar_cont_sec_1_link a{
+    width: 200px;
+}
+
+.nar_cont_sec_1 hr{
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+.nar_cont_banner_sec_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/fondo2.png");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.nar_cont_banner_sec_3 .row{
+    color: #fff;
+    padding: 2%;
+}
+
+.nar_cont_img{
+    padding: 5%;
+}
+
+.nar_cont_footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 10%;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 48
+}
+
+.container-menu img{
+    
+    height: 30vh;
+    width: 43vh;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 5%;
+}
+
+.container-sombra{
+    background-color: #014d4d;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.horas{
+    display: flex;
+    justify-content: center;
+}
+
+#boton-horas{
+    font-size: 1.5rem;
+}
+
+.fc-event{
+    cursor:pointer;
+}
+
+#cabecera-img{
+    display: flex;
+    width: auto;
+    height: 5rem;
+    cursor: pointer;
+}
+
+#entrante:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+#plato:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+#postre:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.reservas{
+    text-align: center;
+}
+
+#log{
+    margin-left: 60rem;
+}
+
+#disponible{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.correcto{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contacto{
+    text-align: center;
+}
+                            

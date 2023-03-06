@@ -1,0 +1,20 @@
+{
+  "resources/img/fondo.png": {
+    "file": "assets/fondo.fc1383d6.png",
+    "src": "resources/img/fondo.png"
+  },
+  "resources/img/fondo2.png": {
+    "file": "assets/fondo2.837cc1f1.png",
+    "src": "resources/img/fondo2.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.f74838c8.js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app.5909ecbd.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}
