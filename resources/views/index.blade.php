@@ -9,7 +9,7 @@
         // Configurar el temporizador para ocultar la alerta después de 2 segundos
         setTimeout(function() {
             alerta.style.display = "none";
-        }, 3000);
+        }, 3500);
     }, );
 </script>
 
