@@ -3,14 +3,15 @@
     @include('includes.header')
     <div class="misre mt-5">
         <br><br>
-        <h2>Mis reservas</h2>
+        <h1><strong>Mis Reservas</strong></h1>
         <hr/>
     </div>
     @if (session()->has('success'))
-    <div class="correcto">
+    <div class="alert alert-success">
         {{ session('success') }}
     </div>
 @endif
+
    
     <table class="table">
         <thead>
