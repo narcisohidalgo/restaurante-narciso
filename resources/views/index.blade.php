@@ -8,7 +8,7 @@
             <p>Comida tradicional</p>
             @if (session()->has('success'))
                 <div class="alert success">
-                    {{ session('success') }}
+                    <h4>{{ session('success') }}</h4>
                 </div>
             @endif
             <hr />
