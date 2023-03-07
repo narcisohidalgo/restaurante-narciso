@@ -1,25 +1,25 @@
 @include('includes.header')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <script>
     // Obtener la alerta
-var alerta = document.getElementById("alerta");
+    $(document).ready(function() {
+        var alerta = document.getElementById("alerta");
 
-// Configurar el temporizador para ocultar la alerta después de 2 segundos
-setTimeout(function() {
-  alerta.style.display = "none";
-}, 2000);
-
+        // Configurar el temporizador para ocultar la alerta después de 2 segundos
+        setTimeout(function() {
+            alerta.style.display = "none";
+        }, 3000);
+    }, );
 </script>
 
-    @if (session()->has('success'))
+@if (session()->has('success'))
     <br><br><br><br>
-        <div id="alerta">
-            <h4>{{ session('success') }}</h4>
-        </div>
-    @endif
-</div>
+    <div class="alert alert-success" id="alerta">
+        <h4>{{ session('success') }}</h4>
+    </div>
+@endif
+
 
 <section>
     <div class="banner">

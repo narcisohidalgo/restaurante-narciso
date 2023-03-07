@@ -145,7 +145,7 @@ font-variation-settings:
     color:dodgerblue;
 }
 
-#alert-success{
+.alert-success{
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -153,6 +153,13 @@ font-variation-settings:
     margin-top: auto;
     margin-bottom: auto;
 
+}
+
+#alerta{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color:dodgerblue;
 }
 
 .contacto{
