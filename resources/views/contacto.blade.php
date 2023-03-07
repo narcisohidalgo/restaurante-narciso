@@ -40,7 +40,7 @@
 
                 <div class="form-group">
                     <label for="descripcion">{{ __('Descripcion') }}</label>
-                    <textarea class="form-control mb-3" name="descripcion"></textarea>
+                    <textarea class="form-control mb-3" name="descripcion" required></textarea>
                 </div>
 
                 <div class="form-btn mt-5 ">
