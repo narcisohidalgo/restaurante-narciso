@@ -39,6 +39,18 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="email">{{ __('Email Address') }}</label>
+                    <input id="email" type="email" class="form-control mb-3" @error('email') is-invalid @enderror
+                        name="email" value="{{ old('email') }}" required autocomplete="email"
+                        title="El email no es válido">
+                    @error('email')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
+                </div>
+
+                <div class="form-group">
                     <label for="descripcion">{{ __('Descripcion') }}</label>
                     <textarea class="form-control mb-3" name="descripcion" required></textarea>
                 </div>

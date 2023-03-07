@@ -14,6 +14,7 @@ class Contacto extends Model
         'id_contactos',
         'nombre',
         'apellidos',
+        'email',
         'descripcion'
     ];
 }

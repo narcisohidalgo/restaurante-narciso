@@ -1,16 +1,32 @@
 @include('includes.header')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script>
+
+<script>
+    // Obtener la alerta
+var alerta = document.getElementById("alerta");
+
+// Configurar el temporizador para ocultar la alerta después de 2 segundos
+setTimeout(function() {
+  alerta.style.display = "none";
+}, 2000);
+
+</script>
+
+    @if (session()->has('success'))
+    <br><br><br><br>
+        <div id="alerta">
+            <h4>{{ session('success') }}</h4>
+        </div>
+    @endif
+</div>
 
 <section>
     <div class="banner">
         <div class="sombra">
             <h1>Restaurante Narciso</h1>
             <p>Comida tradicional</p>
-            @if (session()->has('success'))
-                <div class="alert success">
-                    <h4>{{ session('success') }}</h4>
-                </div>
-            @endif
+
             <hr />
             <div class="cont_banner_link">
                 <a class="banner_link" href="calendario">RESERVAR</a>

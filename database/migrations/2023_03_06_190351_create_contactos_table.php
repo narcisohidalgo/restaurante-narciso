@@ -17,6 +17,7 @@ return new class extends Migration
             $table->bigIncrements('id')->unique();
             $table->string('nombre');
             $table->string('apellidos');
+            $table->string('email');
             $table->string('descripcion');
             $table->timestamps();
         });
