@@ -119,7 +119,7 @@ class ReservasController extends Controller
         $borrado = Horario::where('id', $horario->value('fecha_reservas'));
         $borrado->update(['estado' => 'Disponible']);
 
-        return redirect("/misreservas");
+        return redirect("/misreservas")->with('success', 'Reserva eliminada correctamente');
     }
     public function Evento()
     {

@@ -10,7 +10,7 @@
     <div class="container mt-5 mb-5">
         <div class="abs-center">
 
-            <form class="border p-5" id="form-confirmar-R" action="/contacto" method="POST">
+            <form class="border p-5" id="form-confirmar-R" action="/comentario" method="POST">
                 @csrf
                 <div class="form-group">
                     <label for="nombre">{{ __('Nombre') }}</label>
