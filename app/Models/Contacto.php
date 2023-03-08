@@ -13,7 +13,6 @@ class Contacto extends Model
     protected $fillable = [
         'id_contactos',
         'nombre',
-        'apellidos',
         'email',
         'descripcion'
     ];

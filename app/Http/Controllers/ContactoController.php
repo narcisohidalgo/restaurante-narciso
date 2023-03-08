@@ -12,7 +12,6 @@ class ContactoController extends Controller
     {
         Contacto::create([
             'nombre' => $request->post('nombre'),
-            'apellidos' => $request->post('apellidos'),
             'email' => $request->post('email'),
             'descripcion' => $request->post('descripcion'),
         ]);
