@@ -225,5 +225,35 @@ class HorarioSeeder extends Seeder
         $user->estado = 'Disponible';
         $user->save();
 
+
+        $user = new Horario();
+        $user->fecha = '2023-09-14';
+        $user->hora = '16:00';
+        $user->estado = 'Disponible';
+        $user->save();
+
+        $user = new Horario();
+        $user->fecha = '2023-09-17';
+        $user->hora = '16:30';
+        $user->estado = 'Disponible';
+        $user->save();
+
+        $user = new Horario();
+        $user->fecha = '2023-09-17';
+        $user->hora = '17:00';
+        $user->estado = 'Disponible';
+        $user->save();
+
+        $user = new Horario();
+        $user->fecha = '2023-09-15';
+        $user->hora = '17:00';
+        $user->estado = 'Disponible';
+        $user->save();
+
+        $user = new Horario();
+        $user->fecha = '2023-09-15';
+        $user->hora = '17:00';
+        $user->estado = 'Disponible';
+        $user->save();
     }
 }
